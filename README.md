@@ -7,6 +7,8 @@
 >ssh admin@*ip_address*
 // password
 ## Khai Báo  SIU
+- Xóa commit cũ
+>resettofactorysetting
 - Mở mode khai báo
 >startTransaction dvtdl
 ### đặt tên cho SIU
@@ -90,6 +92,7 @@ setmoattribute dvtdl STN=0,EthernetInterface=GE2 portNumber 2
 setmoattribute dvtdl STN=0,EthernetInterface=GE2 sendLinkAlarmAllowed true
 createmo dvtdl STN=0,VLANGroup=FTTX
 
+
 setmoattribute dvtdl STN=0,VLANGroup=FTTX depLinkLayer STN=0,EthernetInterface=GE2
 createmo dvtdl STN=0,VLANGroup=FTTX,VLAN=AON
 setmoattribute dvtdl STN=0,VLANGroup=FTTX,VLAN=AON tagValue 3117
@@ -103,3 +106,6 @@ setmoattribute dvtdl STN=0,IPInterface=IPTELNET primarySubNetMask 255.255.255.25
 setmoattribute dvtdl STN=0,IPInterface=IPTELNET depLinkLayer STN=0,VLANGroup=WAN,VLAN=IPTELNET
 setmoattribute dvtdl STN=0,IPInterface=IPTELNET defaultGateway 192.168.100.1
 setmoattribute dvtdl STN=0,IPInterface=IPTELNET trustDSCP true
+## Check khai báo và commit
+checkconsistency dvtdl
+commit dvtdl forcedcommit
