@@ -1,4 +1,8 @@
 # Khai Báo SIU
+Cách login vào SIU
+>ssh admin@*ip_address*
+// password
+## Khai Báo đặt tên cho SIU
 setmoattribute dvtdl STN=0 stn_name **SIUDLBT65**
 ## Khai báo tại Port GE-0
 ### Mở port 0
