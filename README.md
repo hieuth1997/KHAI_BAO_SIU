@@ -1,5 +1,9 @@
 # Khai Báo SIU
-Cách login vào SIU
+##Cách login vào SIU
+### cắm vật lý
+- cắm port vật lý vào cổng console.
+- đặt giải IP 192.168.1.0/24 và telnet 192.168.1.1
+### login Từ xa
 >ssh admin@*ip_address*
 // password
 ## Khai Báo đặt tên cho SIU
