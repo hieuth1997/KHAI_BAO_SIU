@@ -101,5 +101,5 @@ createmo dvtdl STN=0,IPInterface=IPTELNET
 setmoattribute dvtdl STN=0,IPInterface=IPTELNET primaryIP_Address 192.168.100.2
 setmoattribute dvtdl STN=0,IPInterface=IPTELNET primarySubNetMask 255.255.255.252
 setmoattribute dvtdl STN=0,IPInterface=IPTELNET depLinkLayer STN=0,VLANGroup=WAN,VLAN=IPTELNET
-setmoattribute dvtdl STN=0,IPInterface=IPTELNET defaultGateway 10.168.100.1
+setmoattribute dvtdl STN=0,IPInterface=IPTELNET defaultGateway 192.168.100.1
 setmoattribute dvtdl STN=0,IPInterface=IPTELNET trustDSCP true
