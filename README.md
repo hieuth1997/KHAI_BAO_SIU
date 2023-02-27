@@ -34,7 +34,7 @@ createmo dvtdl STN=0,Bridge=5
 createmo dvtdl STN=0,VLANGroup=WAN,VLAN=AON
 setmoattribute dvtdl STN=0,VLANGroup=WAN,VLAN=AON tagValue 3117
 setmoattribute dvtdl STN=0,VLANGroup=WAN,VLAN=AON depBridge STN=0,Bridge=5
-### tạo brige 6 cho 2G
+### Tạo brige 6 cho 2G
 createmo dvtdl STN=0,Bridge=6
 createmo dvtdl STN=0,VLANGroup=WAN,VLAN=2G-ABIS
 setmoattribute dvtdl STN=0,VLANGroup=WAN,VLAN=2G-ABIS tagValue 356
