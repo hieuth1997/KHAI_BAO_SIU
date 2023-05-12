@@ -15,7 +15,7 @@
 setmoattribute dvtdl STN=0 stn_name **SIUDLBT3D**
 ## Khai báo tại Port GE-0
 ### Mở port 0
-createmo dvtdl STN=0,EthernetInterface=GE
+createmo dvtdl STN=0,EthernetInterface=GE0
 setmoattribute dvtdl STN=0,EthernetInterface=GE port SFP
 setmoattribute dvtdl STN=0,EthernetInterface=GE mode auto
 setmoattribute dvtdl STN=0,EthernetInterface=GE portNumber 0
